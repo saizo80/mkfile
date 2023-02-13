@@ -10,8 +10,6 @@ fn main() {
 
     let path = get_path(args[0].to_string());
 
-    println!("Path: {}", path);
-
     let bytes = get_bytes(args[1].to_string());
 
     make_file(path, &bytes);
